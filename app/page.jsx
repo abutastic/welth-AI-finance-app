@@ -1,3 +1,4 @@
+import React from "react";
 import HeroSection from "@/components/Hero";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
