@@ -54,7 +54,7 @@ export default function EmailTemplate({
     return (
       <Html>
         <Head />
-        <Preview>Your Monthly Financial Report</Preview>
+        <Preview>Monthly Financial Report by Welth AI</Preview>
         <Body style={styles.body}>
           <Container style={styles.container}>
             <Heading style={styles.title}>Monthly Financial Report</Heading>
@@ -110,8 +110,8 @@ export default function EmailTemplate({
             )}
 
             <Text style={styles.footer}>
-              Thank you for using Welth. Keep tracking your finances for better
-              financial health!
+              Thank you for using Welth AI. Keep tracking your finances for
+              better financial health!
             </Text>
           </Container>
         </Body>

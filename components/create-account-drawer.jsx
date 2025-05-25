@@ -28,7 +28,7 @@ import { createAccount } from "@/actions/dashboard";
 import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
 
-const CreateAccountDrawer = ({ children }) => {
+export const CreateAccountDrawer = ({ children }) => {
   const [open, setOpen] = useState(false);
 
   const {
@@ -185,5 +185,3 @@ const CreateAccountDrawer = ({ children }) => {
     </Drawer>
   );
 };
-
-export default CreateAccountDrawer;
